@@ -1,10 +1,11 @@
-/* Components */
-import { Counter } from './components/Counter/Counter'
+import styles from './page.module.css'
+import Login from './login/page'
 
-export default function IndexPage() {
-  return <Counter />
-}
 
-export const metadata = {
-  title: 'Redux Toolkit',
+export default function Home() {
+  return (
+    <main className={styles.main}>
+      <Login/>
+    </main>
+  )
 }

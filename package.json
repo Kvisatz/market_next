@@ -1,23 +1,26 @@
 {
+  "name": "market",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "1.9.5",
-    "next": "latest",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.18",
+    "@types/react-dom": "18.2.7",
+    "next": "^13.4.14-canary.2",
+    "next-videos": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-redux": "8.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "20.3.1",
-    "@types/react": "18.2.12",
-    "@types/react-dom": "18.2.5",
-    "@types/redux-logger": "3.0.9",
-    "redux-logger": "3.0.6",
-    "typescript": "5.1.3"
+    "sass": "^1.64.2",
+    "typescript": "5.1.6"
   }
 }
